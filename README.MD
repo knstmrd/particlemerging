@@ -1,0 +1,3 @@
+This repository contains implementations of two conservative N:2 particle merging algorithms: [Octree particle management for DSMC and PIC simulations](https://www.sciencedirect.com/science/article/pii/S0021999116000280) and [Particle merging algorithm for PIC codes](https://www.sciencedirect.com/science/article/pii/S0010465515000405?via%3Dihub).
+
+The code samples a user-specified number of argon particles from a Maxwellian distribution, merges them down to a smaller number of particles using these algorithms, and outputs some statistics to show that mass, momentum and energy are conserved; it also shows the effect merging has on higher-order moments.
